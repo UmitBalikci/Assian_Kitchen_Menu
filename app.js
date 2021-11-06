@@ -112,10 +112,8 @@ btn.forEach((item) => {
         console.log(category);
         let menuInfo = menu.filter((cat) => {
             if (cat.category === category) {
+                
                 return cat
-
-                /*  let icerik = `<div class="col-sm-6 mt-3"><img class="photo" src="${cat.img}" alt=""></div>`
-                 sectionDom.innerHTML = icerik */
             }
 
         })
